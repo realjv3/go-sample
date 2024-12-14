@@ -2,7 +2,7 @@
 
 package main
 
-import "https://github.com/something/that-does-not-exist-at-all"
+import "github.com/something/that-does-not-exist-at-all"
 
 func getInt() int {
 
