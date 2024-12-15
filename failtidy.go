@@ -2,11 +2,9 @@
 
 package main
 
-import "github.com/something/that-does-not-exist-at-all"
+import "fmt"
 
-func getInt() int {
+func getGreet() {
 
-	var i int = 24
-
-	return i
+	fmt.Println("oh hello")
 }
