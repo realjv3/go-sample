@@ -2,9 +2,9 @@
 
 package main
 
-import "fmt"
+import "github.com/google/go-cmp/cmp"
 
-func getGreet() {
+func compare() {
 
-	fmt.Println("oh hello")
+	cmp.Diff("this", "that")
 }
